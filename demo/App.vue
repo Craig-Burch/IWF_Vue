@@ -1,12 +1,13 @@
 <template>
   <div id="app" class="flyout">
-    <mdb-navbar id="main-navbar" dark position="top" class="default-color" scrolling :scrollingOffset="20">
+    <mdb-navbar id="main-navbar" dark position="top" class="black" scrolling :scrollingOffset="20">
       <mdb-navbar-brand to="/" waves style="font-weight: bolder;">
-        MDB Vue
+        Inland Wedding Videography
       </mdb-navbar-brand>
       <mdb-navbar-toggler>
         <mdb-navbar-nav right>
-          <mdb-nav-item exact to="/" waves-fixed>Home</mdb-nav-item>
+          <!-- demo pages -->
+          <mdb-nav-item exact to="/" waves-fixed>Home</mdb-nav-item> 
           <mdb-nav-item to="/css" waves-fixed>CSS</mdb-nav-item>
           <mdb-nav-item to="/components" waves-fixed>Components</mdb-nav-item>
           <mdb-nav-item to="/advanced" waves-fixed>Advanced</mdb-nav-item>
@@ -21,7 +22,7 @@
     <main :style="{marginTop: '60px'}">
       <router-view></router-view>
     </main>
-    <mdb-footer color="default-color">
+    <mdb-footer color="black">
       <p class="footer-copyright mb-0 py-3 text-center">
         &copy; {{new Date().getFullYear()}} Copyright: <a href="https://mdbootstrap.com/docs/vue/?utm_source=DemoApp&utm_medium=MDBVue"> MDBootstrap.com</a>
       </p>
