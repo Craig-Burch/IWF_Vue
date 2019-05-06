@@ -1,5 +1,5 @@
 <template>
-  <div class="Example">
+  <div class="Home"> <!-- root element -->
      <Media 
       class ="media"
       :kind="'video'"
@@ -10,13 +10,23 @@
       @pause="handle()"
       :ref="'fish'"
     >
-
     <!-- :controls="true" add to videos that require controls-->
     </Media>
     <h3>{{ msg }}</h3>
     <p class="mb-2">The application is configured and ready to import our components. You will find MDB Vue docs <a href="https://mdbootstrap.com/vue/" target="_blank">here</a>.</p>
     <p>Please type <span class="black-text">npm run demo</span> or <span class="black-text">yarn demo</span> to launch our Demonstration Page. The files with the code are placed in the <span class="black-text">demo</span> directory.</p>
     <p>If You want to completely remove our demo from Your App, easily type <span class="black-text">npm run remove-demo</span> or <span class="black-text">yarn remove-demo</span>.</p>
+    
+   <!--  <mdb-container>
+      <mdb-row>
+      <mdb-col>
+        <mdb-view>
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg" class="img-fluid " alt="placeholder" overlay="white-slight">
+        </mdb-view>
+      </mdb-col>
+        <mdb-col>One of three columns</mdb-col>
+        </mdb-row>
+     </mdb-container> -->
   </div>
 </template>
 
@@ -26,7 +36,7 @@ export default {
   components: {
    Media,
   },
-   name: 'Example', // div class name
+   name: 'Home', // div class name
   methods: {
     handle() {
       console.log('Video paused!, playing in 2 sec...')
@@ -41,7 +51,7 @@ export default {
     return {
       msg: 'WE ARE CREATORS AND INNOVATORS. ',    
       landingPageVideo: "../static/filler.MP4"
-      // ./assets/video/filler.MP4
+
     };
   }
 }
@@ -66,7 +76,7 @@ p {
 }
  .media {
   width: 1200px;
-  height: 390px !important;
+  height: 400px !important;
   margin-top: 50px !important;
   margin:auto;
 }
