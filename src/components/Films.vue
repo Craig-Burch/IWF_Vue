@@ -12,7 +12,7 @@ export default {
   name: 'Films',
   data () {
     return {
-      msg: 'Welcome to Your MDB Vue.js App'
+      msg: 'Welcome to Your MDB Vue.js App',
     };
   }
 }
