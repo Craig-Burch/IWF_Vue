@@ -24,46 +24,6 @@
       </mdb-row>
     </mdb-container>
     <br>
-    <br>
-    <hr>
-    <br>
-    <br>
-    <mdb-container>
-      <mdb-row>
-      <mdb-col>
-        <mdb-view class ="">
-          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg" class="img-fluid " alt="placeholder" overlay="white-slight">
-        </mdb-view>
-      </mdb-col>
-        <mdb-col class ="left-floating-text"> 
-          <h5 class ="header-margins">HEADER 1</h5>
-          Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tincidunt eget nullam non nisi est sit amet facilisis. Urna nunc id cursus metus aliquam eleifend mi in nulla. 
-          <h5 class ="header-margins">HEADER 2</h5>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.          
-          <h5 class ="header-margins">HEADER 3</h5>
-          In voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </mdb-col>
-        </mdb-row>
-     </mdb-container>
-     <br>
-     <br>
-     <hr>
-     <br>
-     <br>
-     <mdb-container>
-      <mdb-row>
-        <mdb-col class ="left-floating-text"> 
-          <h4 class ="header-margins">HEADER </h4>
-          Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tincidunt eget nullam non nisi est sit amet facilisis. Urna nunc id cursus metus aliquam eleifend mi in nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. Tincidunt eget nullam non nisi est sit amet facilisis.
-        </mdb-col>
-        <mdb-col>
-        <mdb-view>
-          <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
-        </mdb-view>
-      </mdb-col>
-    </mdb-row>
-  </mdb-container>
-  <br>
   <br>
   <hr>
   <br>
@@ -114,6 +74,46 @@
           </mdb-card-body>
         </mdb-card>
       </mdb-card-group>
+    </mdb-row>
+   </mdb-container>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <mdb-container>
+      <mdb-row>
+      <mdb-col>
+        <mdb-view class ="">
+          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg" class="img-fluid " alt="placeholder" overlay="white-slight">
+        </mdb-view>
+      </mdb-col>
+        <mdb-col class ="left-floating-text"> 
+          <h5 class ="header-margins">HEADER 1</h5>
+          Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tincidunt eget nullam non nisi est sit amet facilisis. Urna nunc id cursus metus aliquam eleifend mi in nulla. 
+          <h5 class ="header-margins">HEADER 2</h5>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.          
+          <h5 class ="header-margins">HEADER 3</h5>
+          In voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </mdb-col>
+        </mdb-row>
+     </mdb-container>
+     <br>
+     <br>
+     <hr>
+     <br>
+     <br>
+     <mdb-container>
+      <mdb-row>
+        <mdb-col class ="left-floating-text"> 
+          <h4 class ="header-margins">HEADER </h4>
+          Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tincidunt eget nullam non nisi est sit amet facilisis. Urna nunc id cursus metus aliquam eleifend mi in nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. Tincidunt eget nullam non nisi est sit amet facilisis.
+        </mdb-col>
+        <mdb-col>
+        <mdb-view>
+          <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
+        </mdb-view>
+      </mdb-col>
     </mdb-row>
   </mdb-container>
   <br>
@@ -211,10 +211,10 @@ video {
 .card-deck {
 width: 1250px;
 }
-/*should probably move over to global css later on / column container*/
+/*body container used for home and films page*/
 @media (min-width: 1200px) {
 .container {
-    max-width: 1230px;
+    max-width: 1200px;
  }
 }
 </style>
