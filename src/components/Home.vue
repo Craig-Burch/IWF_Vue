@@ -125,7 +125,7 @@ import Media from '@dongido/vue-viaudio';
 import { mdbContainer, mdbRow, mdbCol, mdbCard, mdbCardImage, mdbCardHeader, mdbCardBody, mdbCardTitle, mdbCardText, mdbCardFooter, mdbCardUp, mdbCardAvatar, mdbCardGroup, mdbBtn, mdbView, mdbMask, mdbIcon } from 'mdbvue';
 export default {
   components: {
-   Media,
+    Media,
     mdbContainer,
     mdbRow,
     mdbCol,
