@@ -202,10 +202,10 @@ video {
 }
 .left-floating-text {
   text-align: left !important;
-  margin-top: 1%;
+  margin-top: 0%;
 }
 .header-margins {
-  margin-top: 3%;
+  margin-top: 2%;
 }
 /*bottom featured video container change to match rest of body width*/
 .card-deck {

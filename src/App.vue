@@ -10,6 +10,8 @@
           <span><mdb-nav-item exact to="/" waves-fixed>  Home </mdb-nav-item></span>
           <span><mdb-nav-item to="/Films" waves-fixed>  Films </mdb-nav-item></span> 
            <span><mdb-nav-item to="/Services" waves-fixed> Services </mdb-nav-item> </span> 
+           <span><mdb-nav-item to="/About" waves-fixed> About </mdb-nav-item> </span> 
+           <mdb-nav-item to="/Contact" waves-fixed> Contact </mdb-nav-item>
         </mdb-navbar-nav>
       </mdb-navbar-toggler>
     </mdb-navbar>
@@ -34,7 +36,15 @@
        </mdb-row>
      </mdb-container>
       <p class="footer-copyright mb-0 py-3 text-center">
-        &copy; {{new Date().getFullYear()}} Copyright: <a href="https://mdbootstrap.com/docs/vue/?utm_source=DemoApp&utm_medium=MDBVue"> Inland Wedding Videography </a>
+         Made with <i class="far fa-heart red-text"></i> by:
+       <span style ="color:white; border-right: 0px !important; ">
+         <a href="http://ilovecode.tech/" target="_blank"> Craig Burch 
+         </a>
+       </span> 
+       @
+        <a href="http://ilovecode.tech/" target="_blank"> iLoveCode.Tech </a>
+      <br>
+      &copy; {{new Date().getFullYear()}} Copyright: <a href=""> Inland Wedding Videography </a>
       </p>
     </mdb-footer>
   </div>
@@ -95,5 +105,25 @@ li {
 /*footer edits*/
 .icons-centered a {
   margin-top: 75px !important;
+}
+.icons-centered a:hover {
+  opacity: .5;
+  transition: .4s ease;
+}
+/*icon vertical posistioning*/
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+.footer-copyright a:hover {
+  opacity: .5;
+  transition: .4s ease;
+}
+/*footer text in relation to icons*/
+.py-3 {
+  margin-top: -15px !important;
+  padding-top: 1rem!important;
+}
+.mb-0 {
+    margin-bottom: 10px!important;
 }
 </style>

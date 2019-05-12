@@ -488,7 +488,7 @@
     </mdb-col>
     </mdb-row>
   </mdb-container>
-  <br>
+  <br><br>
   </div>
 </template>
 <script>
@@ -533,7 +533,7 @@ export default {
   name: 'Films',
   data () {
     return {
-      msg: 'NEW MEDIA',
+      msg: 'WEDDINGS',
       modal: false,
       nmvid1: "../static/filler.mp4",
       modal2: false,
@@ -546,8 +546,8 @@ export default {
       nmvid5: "",
       modal6: false,
       nmvid6: "",
-      msg2: 'DOCUMENTARIES',
-      msg3: 'COMMERCIALS',
+      msg2: 'ELOPEMENTS',
+      msg3: 'ENGAGEMENTS',
       nmvid21: "../static/filler.mp4",
       modal21: false,
       nmvid22: "",
@@ -581,21 +581,21 @@ video {
   text-align: left !important;
   margin-top: 1%;
 }
-/*play icons padding inside container */
- .px-4 {
-  padding-left: 9rem !important;
-  padding-top: 4rem !important;
-}
 h3 {
   font-weight: normal;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   text-align: center;
 }
 p {
   margin-bottom: 0;
   font-size: 16px;
   text-align: center;
+}
+/*play icons padding inside container */
+ .px-4 {
+  padding-left: 9rem !important;
+  padding-top: 4rem !important;
 }
 /*background image containers*/
 .card-image.card {
