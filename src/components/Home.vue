@@ -119,7 +119,6 @@
   <br>
   </div>
 </template>
-
 <script>
 import Media from '@dongido/vue-viaudio';
 import { mdbContainer, mdbRow, mdbCol, mdbCard, mdbCardImage, mdbCardHeader, mdbCardBody, mdbCardTitle, mdbCardText, mdbCardFooter, mdbCardUp, mdbCardAvatar, mdbCardGroup, mdbBtn, mdbView, mdbMask, mdbIcon } from 'mdbvue';
@@ -211,7 +210,7 @@ video {
 .card-deck {
 width: 1250px;
 }
-/*body container used for home and films page*/
+/*body container used for home / films / services pages*/
 @media (min-width: 1200px) {
 .container {
     max-width: 1200px;
