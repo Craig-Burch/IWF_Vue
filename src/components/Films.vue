@@ -608,7 +608,7 @@ p {
   transition: .7s ease;
   cursor: pointer;
 }
-/*body container used for home / films / services pages*/
+/*body container used for home and films page*/
 @media (min-width: 1200px) {
 .container {
     max-width: 1230px;
