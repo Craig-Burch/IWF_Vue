@@ -30,47 +30,92 @@
         </mdb-col>
     </mdb-row>
   </mdb-container>
-
   <br>
-
   <div class="price-table-wrapper">
   <div class="pricing-table">
-    <h2 class="pricing-table__header">- BASIC -</h2>
-    <h3 class="pricing-table__price">$50</h3>
+    <h2 class="pricing-table__header">- BASIC VIDEO PACKAGE  -</h2>
+    <h3 class="pricing-table__price">$1,200</h3>
     <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li>30 day free trial</li>
-      <li>50gb storage space</li>
-      <li>20% discount</li>
-      <li>24 hour support</li>
+      <li>4 hrs (day of)</li>
+      <li>Ceremony + Toasts</li>
+      <li>3 - 5 minute highlight video</li>
+      <li>need more</li>
+      <li>need more</li>
     </ul>
   </div>
   <div class="pricing-table featured-table">
-    <h2 class="pricing-table__header">- BUSINESS -</h2>
-    <h3 class="pricing-table__price">$80</h3>
+    <h2 class="pricing-table__header">- STANDARD VIDEO PACKAGE -</h2>
+    <h3 class="pricing-table__price">$1,850</h3>
     <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li>40 day free trial</li>
-      <li>100gb storage space</li>
-      <li>25% discount</li>
-      <li>24 hour support</li>
+      <li> 6 hrs </li>
+      <li>Prep + Ceremony + Toasts</li>
+      <li>5 - 7 minute cinematic highlight video</li>
+      <li>1 minute instagram highlight</li>
+      <li>need more</li>
     </ul>
   </div>
   <div class="pricing-table">
-    <h2 class="pricing-table__header">- PREMIUM -</h2>
-    <h3 class="pricing-table__price">$130</h3>
+    <h2 class="pricing-table__header">- PLATINUM VIDEO PACKAGE -</h2>
+    <h3 class="pricing-table__price">$2,450</h3>
     <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li>50 day free trial</li>
-      <li>200gb storage space</li>
-      <li>40% discount</li>
-      <li>24 hour support</li>
+      <li> 8 hrs day of + Voiceover interviews</li>
+      <li>Prep + Ceremony + Reception </li>
+      <li>10 - 15 minute cinematic short film</li>
+      <li>3 - 5 Minute Highlight Video</li>
+      <li>1 minute instagram highlight</li>
+    </ul>
+  </div>
+</div>
+<div class="price-table-wrapper">
+  <div class="pricing-table">
+    <h2 class="pricing-table__header">- BASIC PHOTO PACKAGE -</h2>
+    <h3 class="pricing-table__price">$800</h3>
+    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+      Let's Talk!
+    </a>
+    <ul class="pricing-table__list">
+      <li>Up to 3 consultations </li>
+      <li>4 hrs </li>
+      <li>25 of the best photos</li>
+      <li>All Raw files (if desired)</li>
+      <li>need more</li>
+    </ul>
+  </div>
+  <div class="pricing-table featured-table">
+    <h2 class="pricing-table__header">- STANDARD PHOTO PACKAGE -</h2>
+    <h3 class="pricing-table__price">$1,450</h3>
+    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+      Let's Talk!
+    </a>
+    <ul class="pricing-table__list">
+      <li>Up to 3 consultations </li>
+      <li>6 hrs </li>
+      <li>35 - 50 of the best photos</li>
+      <li>All Raw files (if desired)</li>
+      <li>need more</li>
+    </ul>
+  </div>
+  <div class="pricing-table">
+    <h2 class="pricing-table__header">- PLATINUM PHOTO PACKAGE -</h2>
+    <h3 class="pricing-table__price">$2,050</h3>
+    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+      Let's Talk!
+    </a>
+    <ul class="pricing-table__list">
+      <li>Up to 3 consultations </li>
+      <li>8 hrs </li>
+      <li>A personalized physical album to have</li>
+      <li>All Raw files (if desired)</li>
+      <li>need more</li>
     </ul>
   </div>
 </div>
