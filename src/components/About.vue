@@ -5,11 +5,27 @@
       <mdb-col md="6">
         <h3>{{ msg }}</h3>
         Eros in cursus turpis massa tincidunt dui ut ornare.
-        <mdb-row>
+        <mdb-row class ="header-margins">
            <mdb-col md="2">
              <mdb-icon icon="camera-retro" size="4x" />
            </mdb-col>
-           <mdb-col md="10"> <h5 class ="header-margins">HEADER 2</h5>
+           <mdb-col md="10"> <h5>HEADER 2</h5>
+             Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+          </mdb-col>
+        </mdb-row>
+        <mdb-row class ="header-margins">
+           <mdb-col md="2">
+             <mdb-icon icon="camera-retro" size="4x" />
+           </mdb-col>
+           <mdb-col md="10"> <h5 >HEADER 2</h5>
+             Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+          </mdb-col>
+        </mdb-row>
+        <mdb-row class ="header-margins">
+           <mdb-col md="2">
+             <mdb-icon icon="camera-retro" size="4x" />
+           </mdb-col>
+           <mdb-col md="10"> <h5>HEADER 2</h5>
              Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
           </mdb-col>
         </mdb-row>
@@ -63,6 +79,9 @@ p {
 hr {
   width: 63%;
   margin:auto;
+}
+.header-margins {
+  margin-top: 4%;
 }
 /*body container used for home / films / services pages*/
 @media (min-width: 1200px) {
