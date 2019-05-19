@@ -296,4 +296,24 @@ li {
   display: none;
   }
 }
+@media (max-width: 425px) {
+.pricing-table {
+  width: 360px !important;
+ }
+}
+@media (max-width: 410px) {
+.pricing-table {
+  width: 330px !important;
+ }
+}
+@media (max-width: 375px) {
+.pricing-table {
+  width: 300px !important;
+ }
+}
+@media (max-width: 325px) {
+.pricing-table {
+  width: 275px !important;
+ }
+}
 </style>

@@ -102,8 +102,8 @@
 
     <mdb-container class="forMobile">
       <mdb-row>
-      <mdb-col md="6">
-        <mdb-view class ="">
+      <mdb-col md="6" class ="moblile-image-width">
+        <mdb-view>
           <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg" class="img-fluid " alt="placeholder" overlay="white-slight">
         </mdb-view>
       </mdb-col>
@@ -129,7 +129,7 @@
      <br>
      <mdb-container>
       <mdb-row>
-         <mdb-col md="6" class ="forMobile">
+        <mdb-col md="6" class ="forMobile moblile-image-width">
          <mdb-view>
            <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
          </mdb-view>
@@ -380,8 +380,10 @@ width: 1250px;
   }
 }
 /*breakpoint for column adjustments tablet*/
-@media (min-width: 1200px) {
-
+@media (max-width: 575px) {
+.moblile-image-width {
+  padding: 0 !important;
+ }
 }
 /*mobile vs desktop images and video*/
 
