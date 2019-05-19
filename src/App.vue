@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import { mdbContainer, mdbRow, mdbCol, mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbNavbarBrand, mdbFooter } from 'mdbvue';
+import { mdbContainer, mdbRow, mdbCol, mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbNavbarBrand, mdbFooter, mdbIcon } from 'mdbvue';
 
 export default {
   name: 'app',
@@ -64,7 +64,8 @@ export default {
     mdbNavbarNav,
     mdbNavbarToggler,
     mdbNavbarBrand,
-    mdbFooter
+    mdbFooter,
+    mdbIcon
   }
 };
 
@@ -128,5 +129,11 @@ li {
 }
 .mb-0 {
     margin-bottom: 10px!important;
+}
+/*mobile nav bar edit*/
+@media (max-width: 991px) {
+span {
+  border-right: none !important;
+ }
 }
 </style>

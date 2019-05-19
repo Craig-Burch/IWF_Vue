@@ -9,7 +9,7 @@
            <mdb-col md="2">
              <mdb-icon icon="camera-retro" size="4x" />
            </mdb-col>
-           <mdb-col md="10"> <h5>HEADER 2</h5>
+           <mdb-col md="10"> <h5>HEADER 1</h5>
              Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
           </mdb-col>
         </mdb-row>
@@ -25,7 +25,7 @@
            <mdb-col md="2">
              <mdb-icon icon="camera-retro" size="4x" />
            </mdb-col>
-           <mdb-col md="10"> <h5>HEADER 2</h5>
+           <mdb-col md="10"> <h5>HEADER 3</h5>
              Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
           </mdb-col>
         </mdb-row>

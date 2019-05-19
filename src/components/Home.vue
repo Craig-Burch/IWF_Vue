@@ -1,6 +1,7 @@
 <template>
   <div class="Home"> <!-- root element -->
      <Media 
+      playsinline
       class ="media"
       :kind="'video'"
       :isMuted="(true)"
@@ -82,9 +83,24 @@
     <br>
     <br>
 
+   <mdb-container class ="content-margin forDesktop">
+      <mdb-row>
+        <mdb-col col="4" class ="left-floating-text"> 
+          <h5 class ="header-margins">HEADER 1</h5>
+          Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+        </mdb-col>
+        <mdb-col col="4" class ="left-floating-text"> 
+          <h5 class ="header-margins">HEADER 2</h5>
+          Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+        </mdb-col>
+        <mdb-col col="4" class ="left-floating-text"> 
+          <h5 class ="header-margins">HEADER 3</h5>
+          Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+        </mdb-col>
+    </mdb-row>
+  </mdb-container>
 
-
-    <mdb-container>
+    <mdb-container class="forMobile">
       <mdb-row>
       <mdb-col md="6">
         <mdb-view class ="">
@@ -202,13 +218,21 @@ hr {
   height: 400px !important;
   margin-top: 5% !important;
   margin:auto;
+  pointer-events: none;
 }
 /*gives video the stretch effect*/
 video {
     object-fit: fill !important;
-    border:1px solid black;
+    /*border:1px solid black;*/
 }
-
+video::-webkit-media-controls {
+    display:none !important;
+    -webkit-appearance: none;
+}
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
 /*column container width change and edits*/
 .container {
   text-align: center;

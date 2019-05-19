@@ -35,7 +35,7 @@
         <mdb-card  @click.native="modal = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1573007/pexels-photo-1573007.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
-              <h5 class="white-text">
+              <h5 class="white-text playButtonLocation">
                 <mdb-icon icon="play-circle" size="4x"/>
               </h5>
             </div>
@@ -613,5 +613,42 @@ p {
 .container {
     max-width: 1230px;
  }
+}
+/*play button media queries*/
+@media (max-width: 1200px) {
+.px-4 {
+  padding-left: 6.5rem !important;
+  padding-top: 4rem !important;
+  }
+}
+@media (max-width: 991px) {
+.px-4 {
+  padding-left: 4rem !important;
+  padding-top: 4rem !important;
+  }
+}
+@media (max-width: 767px) {
+.px-4 {
+  padding-left: 13rem !important;
+  padding-top: 4rem !important;
+  }
+}
+@media (max-width: 555px) {
+.px-4 {
+  padding-left: 40% !important;
+  padding-top: 4rem !important;
+  }
+}
+@media (max-width: 375px) {
+.px-4 {
+  padding-left: 35% !important;
+  padding-top: 4rem !important;
+  }
+}
+@media (max-width: 325px) {
+.px-4 {
+  padding-left: 33% !important;
+  padding-top: 4rem !important;
+  }
 }
 </style>

@@ -7,14 +7,14 @@
           <h3>{{ msg }}</h3>
           Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tincidunt eget nullam non nisi est sit amet facilisis. Urna nunc id cursus metus aliquam eleifend mi in nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. Tincidunt eget nullam non nisi est sit amet facilisis.
         </mdb-col>
-        <mdb-col>
+        <mdb-col class ="forMobileKill">
         <mdb-view>
           <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress.pricing-tablecs=tinysrgb.pricing-tabledpr=2.pricing-tableh=750.pricing-tablew=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
         </mdb-view>
       </mdb-col>
     </mdb-row>
   </mdb-container>
-  <mdb-container class ="content-margin">
+  <mdb-container class ="content-margin forMobileKill">
       <mdb-row>
         <mdb-col col="4" class ="left-floating-text"> 
           <h5 class ="header-margins">HEADER 1</h5>
@@ -290,5 +290,10 @@ li {
 .container {
     max-width: 1200px;
  }
+}
+@media (max-width: 768px) {
+.forMobileKill {
+  display: none;
+  }
 }
 </style>
