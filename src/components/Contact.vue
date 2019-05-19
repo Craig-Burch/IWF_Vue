@@ -1,5 +1,14 @@
 <template>
   <div class="Contact"> 
+    <!-- <div class="vld-parent">
+        <loading :active.sync="isLoading" 
+        :can-cancel="true" 
+        :on-cancel="onCancel"
+        :is-full-page="fullPage"></loading> -->
+        
+       <!--  <label><input type="checkbox" v-model="fullPage">Full page?</label>
+        <button @click.prevent="doAjax">fetch Data</button>
+    </div> -->
     <h3>{{ msg }}</h3>
     <iframe 
     class="iFrame_style" 
@@ -11,18 +20,34 @@
 </template>
 
 <script>
+// import Loading from 'vue-loading-overlay';
+// import 'vue-loading-overlay/dist/vue-loading.css';
 export default {
   components: {
+    // Loading
   },
   name: 'Home', //div class name?
   data () {
     return {
-      msg: 'CONTACT US',    
+      msg: 'CONTACT US',  
+      // isLoading: false,
+      // fullPage: true  
     };
+  },
+  methods: {
+    // doAjax() {
+    //     this.isLoading = true;
+        // simulate AJAX
+        // setTimeout(() => {
+        //   this.isLoading = false
+    //     },1000)
+    // },
+    // onCancel() {
+    //   console.log('User cancelled the loader.')
+    // }   
   }
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .Contact {

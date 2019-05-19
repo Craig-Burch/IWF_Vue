@@ -31,7 +31,7 @@
   <mdb-container>
     <mdb-row>
       <mdb-card-group deck>
-        <mdb-card>
+        <mdb-card> 
           <mdb-view hover>
             <a href="#!">
               <mdb-card-image src="https://images.pexels.com/photos/1655817/pexels-photo-1655817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap"></mdb-card-image>
@@ -81,23 +81,31 @@
     <hr>
     <br>
     <br>
+
+
+
     <mdb-container>
       <mdb-row>
-      <mdb-col>
+      <mdb-col md="6">
         <mdb-view class ="">
           <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg" class="img-fluid " alt="placeholder" overlay="white-slight">
         </mdb-view>
       </mdb-col>
-        <mdb-col class ="left-floating-text"> 
+      <mdb-col md="6" class ="left-floating-text"> 
           <h5 class ="header-margins">HEADER 1</h5>
           Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tincidunt eget nullam non nisi est sit amet facilisis. Urna nunc id cursus metus aliquam eleifend mi in nulla. 
           <h5 class ="header-margins">HEADER 2</h5>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.          
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. 
           <h5 class ="header-margins">HEADER 3</h5>
           In voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </mdb-col>
-        </mdb-row>
-     </mdb-container>
+       </mdb-col>
+      </mdb-row>
+    </mdb-container>
+
+
+
+
+
      <br>
      <br>
      <hr>
@@ -105,18 +113,23 @@
      <br>
      <mdb-container>
       <mdb-row>
-        <mdb-col class ="left-floating-text"> 
+         <mdb-col md="6" class ="forMobile">
+         <mdb-view>
+           <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
+         </mdb-view>
+       </mdb-col>
+        <mdb-col md="6" class ="left-floating-text"> 
           <h4 class ="header-margins">HEADER </h4>
           Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Tincidunt eget nullam non nisi est sit amet facilisis. Urna nunc id cursus metus aliquam eleifend mi in nulla. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea. Tincidunt eget nullam non nisi est sit amet facilisis.
         </mdb-col>
-        <mdb-col>
-        <mdb-view>
-          <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
-        </mdb-view>
-      </mdb-col>
-    </mdb-row>
-  </mdb-container>
-  <br>
+        <mdb-col md="6" class ="forDesktop">
+         <mdb-view>
+           <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
+         </mdb-view>
+       </mdb-col>
+     </mdb-row>
+   </mdb-container>
+   <br>
   </div>
 </template>
 
@@ -211,10 +224,151 @@ video {
 .card-deck {
 width: 1250px;
 }
+
 /*body container used for home and films page*/
-@media (min-width: 1200px) {
+@media (max-width: 1240px) {
+.card-deck {
+   width: 1175px;
+   margin: auto;
+ }
+}
+@media (max-width: 1240px) {
+.container {
+    max-width: 1175px;
+ }
+}
+@media (min-width: 1250px) {
 .container {
     max-width: 1200px;
  }
+}
+/*header video media queries*/
+@media (max-width: 1230px) {
+.media {
+  width: 1100px;
+  height: 375px !important;
+  margin-top: 10% !important;
+  }
+}
+@media (max-width: 1200px) {
+.media {
+  width: 1000px;
+  height: 350px !important;
+  }
+}
+@media (max-width: 1030px) {
+.media {
+  width: 975px;
+  height: 343.75px !important;
+  }
+}
+@media (max-width: 990px) {
+.media {
+  width: 800px;
+  height: 300px !important;
+  }
+}
+@media (max-width: 830px) {
+.media {
+  width: 750px;
+  height: 287.5px !important;
+  }
+}
+@media (max-width: 777px) {
+.media {
+  width: 725px;
+  height: 281.25px !important;
+  }
+}
+@media (max-width: 768px) {
+.media {
+  width: 700px;
+  height: 275px !important;
+ }
+}
+@media (max-width: 720px) {
+.media {
+  width: 650px;
+  height: 263.5px !important;
+  margin-top: 13% !important;
+  }
+}
+@media (max-width: 675px) {
+.media {
+  width: 625px;
+  height: 251px !important;
+  }
+}
+@media (max-width: 660px) {
+.media {
+  width: 625px;
+  height: 251px !important;
+  }
+}
+@media (max-width: 600px) {
+.media {
+  width: 550px;
+  height: 232.25px !important;
+  }
+}
+@media (max-width: 577px) {
+.media {
+  width: 500px;
+  height: 220px !important;
+  }
+}
+@media (max-width: 500px) {
+.media {
+  width: 450px;
+  height: 200px !important;
+  }
+}
+@media (max-width: 480px) {
+.media {
+  width: 420px;
+  height: 190px !important;
+  margin-top: 17% !important;
+  }
+}
+@media (max-width: 425px) {
+.media {
+  width: 375px;
+  height: 150px !important;
+  }
+}
+@media (max-width: 375px) {
+.media {
+  width: 325px;
+  height: 135px !important;
+  margin-top: 20% !important;
+  }
+}
+@media (max-width: 350px) {
+.media {
+  width: 275px;
+  height: 120px !important;
+  }
+}
+@media (max-width: 325px) {
+.media {
+  width: 245px;
+  height: 110px !important;
+  }
+}
+/*breakpoint for column adjustments tablet*/
+@media (min-width: 1200px) {
+
+}
+/*mobile vs desktop images and video*/
+
+@media (min-width: 768px) {
+.forMobile {
+  display: none;
+  }
+}
+@media (max-width: 767px) {
+.forDesktop {
+  display: none;
+  }
 }
 </style>

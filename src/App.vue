@@ -51,11 +51,14 @@
 </template>
 
 <script>
-import { mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbNavbarBrand, mdbFooter } from 'mdbvue';
+import { mdbContainer, mdbRow, mdbCol, mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbNavbarBrand, mdbFooter } from 'mdbvue';
 
 export default {
   name: 'app',
   components: {
+    mdbContainer, 
+    mdbRow, 
+    mdbCol,
     mdbNavbar,
     mdbNavItem,
     mdbNavbarNav,
