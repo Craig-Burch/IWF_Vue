@@ -35,7 +35,7 @@
   <div class="pricing-table">
     <h2 class="pricing-table__header">- BASIC VIDEO PACKAGE  -</h2>
     <h3 class="pricing-table__price">$1,200</h3>
-    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+    <a target="_blank" class="pricing-table__button" href="#/Contact">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
@@ -49,7 +49,7 @@
   <div class="pricing-table featured-table">
     <h2 class="pricing-table__header">- STANDARD VIDEO PACKAGE -</h2>
     <h3 class="pricing-table__price">$1,850</h3>
-    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+    <a target="_blank" class="pricing-table__button" href="#/Contact">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
@@ -63,7 +63,7 @@
   <div class="pricing-table">
     <h2 class="pricing-table__header">- PLATINUM VIDEO PACKAGE -</h2>
     <h3 class="pricing-table__price">$2,450</h3>
-    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+    <a target="_blank" class="pricing-table__button" href="#/Contact">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
@@ -79,7 +79,7 @@
   <div class="pricing-table">
     <h2 class="pricing-table__header">- BASIC PHOTO PACKAGE -</h2>
     <h3 class="pricing-table__price">$800</h3>
-    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+    <a target="_blank" class="pricing-table__button" href="#/Contact">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
@@ -93,7 +93,7 @@
   <div class="pricing-table featured-table">
     <h2 class="pricing-table__header">- STANDARD PHOTO PACKAGE -</h2>
     <h3 class="pricing-table__price">$1,450</h3>
-    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+    <a target="_blank" class="pricing-table__button" href="#/Contact">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
@@ -107,7 +107,7 @@
   <div class="pricing-table">
     <h2 class="pricing-table__header">- PLATINUM PHOTO PACKAGE -</h2>
     <h3 class="pricing-table__price">$2,050</h3>
-    <a target="_blank" class="pricing-table__button" href="http://www.digimadmedia.com">
+    <a target="_blank" class="pricing-table__button" href="#/Contact">
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
