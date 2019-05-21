@@ -1,16 +1,18 @@
 <template>
   <div class="Contact"> 
-    <!-- <div class="vld-parent">
-        <loading :active.sync="isLoading" 
-        :can-cancel="true" 
-        :on-cancel="onCancel"
-        :is-full-page="fullPage"></loading> -->
-        
-       <!--  <label><input type="checkbox" v-model="fullPage">Full page?</label>
-        <button @click.prevent="doAjax">fetch Data</button>
-    </div> -->
+    <div class="vld-parent ">
+        <loading 
+         :active.sync="isLoading" 
+         :is-full-page="fullPage"
+        >
+         <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+         </div>
+       </loading>
+    </div>
     <h3>{{ msg }}</h3>
     <iframe 
+    v-model="fullPage"
     class="iFrame_style" 
     src="https://widget.honeybook.com/assets_users_production/companies/5c157b4b63cca7112814e193/widgets/5c157b4b63cca7112814e1ab/contact_form.html" frameBorder="0" 
     width="78%" 
@@ -20,32 +22,34 @@
 </template>
 
 <script>
-// import Loading from 'vue-loading-overlay';
-// import 'vue-loading-overlay/dist/vue-loading.css';
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/vue-loading.css';
 export default {
   components: {
-    // Loading
+    Loading
   },
   name: 'Home', //div class name?
   data () {
     return {
       msg: 'CONTACT US',  
-      // isLoading: false,
-      // fullPage: true  
+      isLoading: false,
+      fullPage: true  
     };
   },
   methods: {
-    // doAjax() {
-    //     this.isLoading = true;
-        // simulate AJAX
-        // setTimeout(() => {
-        //   this.isLoading = false
-    //     },1000)
-    // },
-    // onCancel() {
-    //   console.log('User cancelled the loader.')
-    // }   
-  }
+    doAjax() {
+        this.isLoading = true;
+        setTimeout(() => {
+          this.isLoading = false
+        },1500)
+    },
+    onCancel() {
+      console.log('User cancelled the loader.')
+    }   
+  },
+  beforeMount(){
+      this.doAjax()
+ },
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -88,6 +92,11 @@ width: 1250px;
 @media (min-width: 1200px) {
 .container {
     max-width: 1200px;
+ }
+}
+@media (max-width: 375px) {
+.container {
+    margin-left: -10px !important;
  }
 }
 </style>

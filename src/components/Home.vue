@@ -8,8 +8,6 @@
       :src="landingPageVideo"
       :autoplay="true"
       :loop="true"
-      @pause="handle()"
-      :ref="'fish'"
     >
     <!-- :controls="true" add to videos that require controls-->
     </Media>
@@ -175,13 +173,6 @@ export default {
   },
    name: 'Home', // div class name
   methods: {
-    handle() {
-      console.log('Video paused!, playing in 2 sec...')
-
-      setTimeout( () => {
-        this.$refs.fish.play() 
-      }, 2000)
-    }
   },
   name: 'Home', //div class name?
   data () {

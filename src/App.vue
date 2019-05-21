@@ -66,6 +66,9 @@ export default {
     mdbNavbarBrand,
     mdbFooter,
     mdbIcon
+  },
+  methods: { 
+
   }
 };
 
@@ -108,7 +111,12 @@ li {
 }
 /*footer edits*/
 .icons-centered a {
-  margin-top: 75px !important;
+  margin-top: 55px !important;
+}
+@media (max-width: 480px) {
+.icons-centered a {
+  margin-top: 40px !important;
+  }
 }
 .icons-centered a:hover {
   opacity: .5;
