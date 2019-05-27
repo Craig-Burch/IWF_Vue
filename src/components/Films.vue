@@ -54,8 +54,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 1</strong></h3>
@@ -89,8 +87,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 2</strong></h3>
@@ -124,8 +120,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 3</strong></h3>
@@ -137,8 +131,8 @@
      </mdb-modal>
     </mdb-col>
     </mdb-row>
-    <!-- row 2 -->
-    <mdb-row>
+    <!-- 2nd row of weddings section-->
+   <!--  <mdb-row>
       <mdb-col md="4">
         <mdb-card  @click.native="modal4 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1779491/pexels-photo-1779491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
           <div class="d-flex align-items-center py-5 px-4">
@@ -162,8 +156,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 4</strong></h3>
@@ -197,8 +189,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 5</strong></h3>
@@ -232,8 +222,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 6</strong></h3>
@@ -244,35 +232,28 @@
         </mdb-modal-footer>
      </mdb-modal>
     </mdb-col>
-    </mdb-row>
+    </mdb-row> -->
+
+
+
+
+
+
     <!-- next category-------------------------- -->
+    <!-- for when we add engagements section -->
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     <br>
+     <!-- <br>
      <mdb-row>
         <mdb-col md="4" >
           <h3 class ="left-floating-text">{{ msg3 }}</h3>
         </mdb-col>
-      </mdb-row>
+      </mdb-row> -->
       <!-- row 1 -->
-    <mdb-row>
+   <!--  <mdb-row>
       <mdb-col md="4">
         <mdb-card  @click.native="modal21 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/2072899/pexels-photo-2072899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
           <div class="d-flex align-items-center py-5 px-4">
@@ -296,8 +277,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 21</strong></h3>
@@ -331,8 +310,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 22</strong></h3>
@@ -366,8 +343,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 23</strong></h3>
@@ -378,9 +353,9 @@
         </mdb-modal-footer>
      </mdb-modal>
     </mdb-col>
-    </mdb-row>
+    </mdb-row> -->
     <!-- row 2 -->
-    <mdb-row>
+   <!--  <mdb-row>
       <mdb-col md="4">
         <mdb-card  @click.native="modal24 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
           <div class="d-flex align-items-center py-5 px-4">
@@ -404,8 +379,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 24</strong></h3>
@@ -439,8 +412,6 @@
               :src="nmvid1"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 25</strong></h3>
@@ -471,11 +442,9 @@
               :kind="'video'"
               :isMuted="(true)"
               :controls="true"
-              :src="nmvid1"
+              :src="nmvid26"
               :autoplay="false"
               :loop="true"
-              @pause="handle()"
-              :ref="'fish'"
               > 
           </Media> 
           <h3 class="card-title h3 my-4"><strong>Card title 26</strong></h3>
@@ -486,8 +455,8 @@
         </mdb-modal-footer>
      </mdb-modal>
     </mdb-col>
-    </mdb-row>
-  </mdb-container>
+    </mdb-row> -->
+  </mdb-container> 
   <br><br>
   </div>
 </template>
@@ -522,13 +491,6 @@ export default {
     mdbModalFooter,
   },
    methods: {
-    handle() {
-      console.log('Video paused!, playing in 2 sec...')
-      // deer god get rid of this once you dont need the reference
-      setTimeout( () => {
-        this.$refs.fish.play() 
-      }, 2000)
-    }
   },
   name: 'Films',
   data () {
@@ -558,7 +520,7 @@ export default {
       modal24: false,
       nmvid25: "",
       modal25: false,
-      nmvid26: "",
+      nmvid26: "../static/website.mov",
       modal26: false,
       msg4: 'MUSIC VIDEOS',    
     };

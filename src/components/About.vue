@@ -4,13 +4,14 @@
     <mdb-row>
       <mdb-col md="6">
         <h3>{{ msg }}</h3>
-        Eros in cursus turpis massa tincidunt dui ut ornare.
+        <p>Eros in cursus turpis massa tincidunt dui ut ornare.</p>
         <mdb-row class ="header-margins">
            <mdb-col md="2">
              <mdb-icon icon="camera-retro" size="4x" />
            </mdb-col>
            <mdb-col md="10"> <h5>HEADER 1</h5>
-             Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+             <p>When working with potential photographers and videographers, the problem is that most are "either or" and by that, meaning they have great quality mixed with poor communication and/or great communication and costumer relationships mixed with poor quality. Here at Inland Weddings we strive for both. 
+            </p>
           </mdb-col>
         </mdb-row>
         <mdb-row class ="header-margins">
@@ -18,15 +19,17 @@
              <mdb-icon icon="camera-retro" size="4x" />
            </mdb-col>
            <mdb-col md="10"> <h5 >HEADER 2</h5>
-             Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+            <p> When the industry standard art of visual story telling has a baby with great costumer relation and on time delivery, we naturally are the leading wedding photo/video providers on the market. Not to mention at a competitive price. 
+            </p>
           </mdb-col>
         </mdb-row>
         <mdb-row class ="header-margins">
            <mdb-col md="2">
              <mdb-icon icon="camera-retro" size="4x" />
            </mdb-col>
-           <mdb-col md="10"> <h5>HEADER 3</h5>
-             Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. 
+           <mdb-col md="10"> <h5>HEADER 3</h5> 
+             <p>Don't settle for anything less than being treated as more than just a client, but feeling like your love story has it's own feature film.
+            </p>
           </mdb-col>
         </mdb-row>
       </mdb-col>
@@ -71,10 +74,10 @@ h3 {
   padding-bottom: 20px;
 }
 p {
-  text-align: center;
+  text-align: left;
   color: #969696;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 17px;
 }
 hr {
   width: 63%;
@@ -90,3 +93,15 @@ hr {
  }
 }
 </style>
+
+
+
+
+
+When working with potential photographers and videographers, the problem is that most are "either or" and by that, meaning they have great quality mixed
+ with poor communication and/or great communication and costumer relationships mixed with poor quality. Here at Inland Weddings we strive for both. 
+
+When the industry standard art of visual story telling has a baby with great costumer relation and on time delivery, we naturally are the leading
+wedding photo/video providers on the market. Not to mention at a competitive price. 
+
+Don't settle for anything less than being treated as more than just a client, but feeling like your love story has it's own feature film. 

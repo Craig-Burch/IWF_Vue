@@ -11,6 +11,11 @@
        </loading>
     </div>
     <h3>{{ msg }}</h3>
+     <p>Wedding Planning is a pain, trust us, we know. 
+     That's why we try to streamline the process as much as possible! 
+     <br>
+     Start by simply sending us the details of your special day, and we will take it from there! 
+     We're excited to meet you and get to work with you! </p>
     <iframe 
     v-model="fullPage"
     class="iFrame_style" 
@@ -67,7 +72,8 @@ p {
   text-align: center;
   color: #969696;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 hr {
   width: 63%;
