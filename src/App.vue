@@ -2,7 +2,7 @@
   <div id="app" class="flyout">
     <!-- nav bar -->
     <mdb-navbar id="main-navbar" dark position="top" class="black" scrolling :scrollingOffset="20">
-      <mdb-navbar-brand to="/" waves style="font-weight: bolder;">
+      <mdb-navbar-brand to="/" waves style="font-weight: bolder;" class ="pl-2">
         <img src="./assets/images/placeholderNavBar.png">
       </mdb-navbar-brand>
       <mdb-navbar-toggler>
@@ -24,16 +24,16 @@
       <mdb-container>
        <mdb-row>
         <mdb-col class ="icons-centered" md="12">
-          <div class="mb-5 flex-center">
-            <a class="fb-ic" href="https://www.facebook.com/inlandfilms/" target="_blank">
+          <div class="mb-2 flex-center">
+            <a class="fb-ic" href="">
               <i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-3x"> 
               </i>
             </a>
-            <a class="tw-ic" href="https://twitter.com/inlandfilms" target="_blank">
+            <a class="tw-ic" href="">
               <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-3x"> 
               </i>
             </a> 
-            <a class="ins-ic" href="https://www.instagram.com/inlandfilms/" target="_blank">
+            <a class="ins-ic" href="">
               <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-3x"> 
               </i>
             </a>
@@ -50,7 +50,7 @@
        @
         <a href="http://ilovecode.tech/" target="_blank"> iLoveCode.Tech </a>
       <br>
-      &copy; {{new Date().getFullYear()}} Copyright: <a href=""> Inland Wedding Videography </a>
+      &copy; {{new Date().getFullYear()}} Copyright: <a href=""> Your Companies Name </a>
       </p>
     </mdb-footer>
   </div>
@@ -150,7 +150,7 @@ li {
 }
 /*footer text in relation to icons*/
 .py-3 {
-  margin-top: -15px !important;
+  margin-top: 0px !important;
   padding-top: 1rem!important;
 }
 .mb-0 {

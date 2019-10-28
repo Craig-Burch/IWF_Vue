@@ -132,7 +132,7 @@
     </mdb-col>
     </mdb-row>
     <!-- 2nd row of weddings section-->
-   <!--  <mdb-row>
+    <mdb-row>
       <mdb-col md="4">
         <mdb-card  @click.native="modal4 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1779491/pexels-photo-1779491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
           <div class="d-flex align-items-center py-5 px-4">
@@ -232,20 +232,8 @@
         </mdb-modal-footer>
      </mdb-modal>
     </mdb-col>
-    </mdb-row> -->
-
-
-
-
-
-
+    </mdb-row>
     <!-- next category-------------------------- -->
-    <!-- for when we add engagements section -->
-
-
-
-
-
      <!-- <br>
      <mdb-row>
         <mdb-col md="4" >
@@ -527,7 +515,6 @@ export default {
   }
 }
 </script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .media {

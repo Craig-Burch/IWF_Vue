@@ -28,9 +28,9 @@
       <mdb-row>
       <mdb-col>
         <h4>
-         Temecula Wedding Videography. 
-        <br>
-        <!--  We didn't adapt to the shift of new technology and online content - we grew up with it. While everyone else is trying to play catch up to meet the challenge of creating content that with the latest and greatest advancement in technology to engages and entertains audiences, we've been doing it for years - with the numbers to prove it. --> 
+         "Your Companies Name Here". 
+        <br><br>
+        NOTE: This web theme is for sale! Created by Craig @ <span style="color:black"><a href="http://ilovecode.tech/" target="_blank">iLoveCode.tech</a></span>. Thank you for viewing! <br>
         </h4>
       </mdb-col>
       </mdb-row>
@@ -142,7 +142,7 @@
       <mdb-row>
       <mdb-col md="6" class ="moblile-image-width">
         <mdb-view>
-          <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(7).jpg" class="img-fluid " alt="placeholder" overlay="white-slight">
+          <img src="https://images.pexels.com/photos/108148/pexels-photo-108148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
         </mdb-view>
       </mdb-col>
       <mdb-col md="6" class ="left-floating-text"> 
@@ -175,7 +175,7 @@
       <mdb-row>
         <mdb-col md="6" class ="forMobile moblile-image-width">
          <mdb-view>
-           <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
+           <img src="https://images.pexels.com/photos/949223/pexels-photo-949223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
          </mdb-view>
        </mdb-col>
         <mdb-col md="6" class ="left-floating-text"> 
@@ -225,13 +225,10 @@ export default {
     mdbModalBody,
     mdbModalFooter
   },
-   name: 'Home', // div class name
-  methods: {
-  },
-  name: 'Home', //div class name?
+  name: 'Home', 
   data () {
     return {
-      msg: 'CAPTURING YOUR SPECIAL DAY TO REVISIT FOR A LIFETIME',    
+      msg: 'Videographer Portfolio Theme',    
       desktopVideo: "../static/website.mov",
       mobileVideo: "../static/website.mov",
       modal: false,

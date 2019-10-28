@@ -11,11 +11,9 @@
        </loading>
     </div>
     <h3>{{ msg }}</h3>
-     <p>Wedding Planning is a pain, trust us, we know. 
-     That's why we try to streamline the process as much as possible! 
+     <p>Amet dictum sit amet justo. Eros in cursus turpis massa tincidunt dui ut ornare. Amet dictum sit amet justo. 
      <br>
-     Start by simply sending us the details of your special day, and we will take it from there! 
-     We're excited to meet you and get to work with you! </p>
+     Eros in cursus turpis massa tincidunt dui ut ornare. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus.</p>
     <iframe 
     v-model="fullPage"
     class="iFrame_style" 
@@ -33,7 +31,7 @@ export default {
   components: {
     Loading
   },
-  name: 'Home', //div class name?
+  name: 'Contact', 
   data () {
     return {
       msg: 'CONTACT US',  
@@ -42,18 +40,15 @@ export default {
     };
   },
   methods: {
-    doAjax() {
+    spinner() {
         this.isLoading = true;
         setTimeout(() => {
           this.isLoading = false
         },1500)
     },
-    onCancel() {
-      console.log('User cancelled the loader.')
-    }   
   },
   beforeMount(){
-      this.doAjax()
+      this.spinner()
  },
 }
 </script>

@@ -35,7 +35,7 @@
       </mdb-col>
       <mdb-col md="6">
         <mdb-view class ="">
-          <img src="https://images.pexels.com/photos/2268728/pexels-photo-2268728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
+          <img src="https://images.pexels.com/photos/1447264/pexels-photo-1447264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
         </mdb-view>
       </mdb-col>
     </mdb-row>
@@ -93,15 +93,3 @@ hr {
  }
 }
 </style>
-
-
-
-
-
-When working with potential photographers and videographers, the problem is that most are "either or" and by that, meaning they have great quality mixed
- with poor communication and/or great communication and costumer relationships mixed with poor quality. Here at Inland Weddings we strive for both. 
-
-When the industry standard art of visual story telling has a baby with great costumer relation and on time delivery, we naturally are the leading
-wedding photo/video providers on the market. Not to mention at a competitive price. 
-
-Don't settle for anything less than being treated as more than just a client, but feeling like your love story has it's own feature film. 

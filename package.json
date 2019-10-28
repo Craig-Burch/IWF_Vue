@@ -1,8 +1,8 @@
 {
   "name": "vue-demo",
   "version": "5.3.0",
-  "description": "MDB Vue Demo App",
-  "author": "MDBootstrap <support@mdbootstrap.com>",
+  "description": "Videographer Themed Template",
+  "author": "Craig Burch",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --open",
