@@ -1,26 +1,5 @@
 <template>
   <div class="films">
-    <!-- <mdb-container class="mt-5">
-      <br>
-      <br>
-      <mdb-row class="mdb-lightbox">
-        <mdb-col md="4">
-          <figure>
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg" class="img-fluid" alt="">
-          </figure>
-        </mdb-col>
-        <mdb-col md="4">
-          <figure>
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg" class="img-fluid" alt="">
-          </figure>
-        </mdb-col>
-        <mdb-col md="4">
-          <figure>
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg" class="img-fluid" alt="">
-          </figure>
-        </mdb-col>
-      </mdb-row>
-    </mdb-container> -->
     <mdb-container>
       <br>
       <br>
@@ -32,7 +11,7 @@
       <!-- row 1 -->
     <mdb-row>
       <mdb-col md="4">
-        <mdb-card  @click.native="modal = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1573007/pexels-photo-1573007.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text playButtonLocation">
@@ -41,7 +20,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal" @close="modal = false">
+      <mdb-modal size="lg" :show="modal" @close="modal = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 1</mdb-modal-title>
         </mdb-modal-header>
@@ -65,7 +44,7 @@
      </mdb-modal>
     </mdb-col>
       <mdb-col md="4">
-        <mdb-card  @click.native="modal2 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal2 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2016/03/09/09/32/guitar-1245856_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -74,7 +53,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal2" @close="modal2 = false">
+      <mdb-modal size="lg" :show="modal2" @close="modal2 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 2</mdb-modal-title>
         </mdb-modal-header>
@@ -98,7 +77,7 @@
      </mdb-modal>
     </mdb-col>
        <mdb-col md="4">
-        <mdb-card  @click.native="modal3 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1804684/pexels-photo-1804684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal3 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2014/05/21/15/18/musician-349790_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -107,7 +86,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal3" @close="modal3 = false">
+      <mdb-modal size="lg" :show="modal3" @close="modal3 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 3</mdb-modal-title>
         </mdb-modal-header>
@@ -134,7 +113,7 @@
     <!-- 2nd row of weddings section-->
     <mdb-row>
       <mdb-col md="4">
-        <mdb-card  @click.native="modal4 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1779491/pexels-photo-1779491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal4 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2017/08/01/11/43/black-and-white-2564630_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -143,7 +122,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal4" @close="modal4 = false">
+      <mdb-modal size="lg" :show="modal4" @close="modal4 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 4</mdb-modal-title>
         </mdb-modal-header>
@@ -167,7 +146,7 @@
      </mdb-modal>
     </mdb-col>
       <mdb-col md="4">
-        <mdb-card  @click.native="modal5 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1488318/pexels-photo-1488318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal5 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2018/03/03/10/34/action-3195378_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -176,7 +155,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal5" @close="modal5 = false">
+      <mdb-modal size="lg" :show="modal5" @close="modal5 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 5</mdb-modal-title>
         </mdb-modal-header>
@@ -200,7 +179,7 @@
      </mdb-modal>
     </mdb-col>
        <mdb-col md="4">
-        <mdb-card  @click.native="modal6 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1603884/pexels-photo-1603884.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal6 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2017/09/02/18/52/musician-2708190_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -209,7 +188,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal6" @close="modal6 = false">
+      <mdb-modal size="lg" :show="modal6" @close="modal6 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 6</mdb-modal-title>
         </mdb-modal-header>
@@ -234,16 +213,16 @@
     </mdb-col>
     </mdb-row>
     <!-- next category-------------------------- -->
-     <!-- <br>
+     <br>
      <mdb-row>
         <mdb-col md="4" >
           <h3 class ="left-floating-text">{{ msg3 }}</h3>
         </mdb-col>
-      </mdb-row> -->
+      </mdb-row>
       <!-- row 1 -->
-   <!--  <mdb-row>
+    <mdb-row>
       <mdb-col md="4">
-        <mdb-card  @click.native="modal21 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/2072899/pexels-photo-2072899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal21 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2014/07/01/12/34/street-381227_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -252,7 +231,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal21" @close="modal21 = false">
+      <mdb-modal size="lg" :show="modal21" @close="modal21 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 21</mdb-modal-title>
         </mdb-modal-header>
@@ -276,7 +255,7 @@
      </mdb-modal>
     </mdb-col>
       <mdb-col md="4">
-        <mdb-card  @click.native="modal22 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1688253/pexels-photo-1688253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal22 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2013/09/14/19/53/city-182223_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -285,7 +264,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal22" @close="modal22 = false">
+      <mdb-modal size="lg" :show="modal22" @close="modal22 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 22</mdb-modal-title>
         </mdb-modal-header>
@@ -309,7 +288,7 @@
      </mdb-modal>
     </mdb-col>
        <mdb-col md="4">
-        <mdb-card  @click.native="modal23 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/845434/pexels-photo-845434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal23 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -318,7 +297,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal23" @close="modal23 = false">
+      <mdb-modal size="lg" :show="modal23" @close="modal23 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 23</mdb-modal-title>
         </mdb-modal-header>
@@ -341,11 +320,11 @@
         </mdb-modal-footer>
      </mdb-modal>
     </mdb-col>
-    </mdb-row> -->
+    </mdb-row>
     <!-- row 2 -->
-   <!--  <mdb-row>
+    <mdb-row>
       <mdb-col md="4">
-        <mdb-card  @click.native="modal24 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/1661004/pexels-photo-1661004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal24 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -354,7 +333,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal24" @close="modal24 = false">
+      <mdb-modal size="lg" :show="modal24" @close="modal24 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 24</mdb-modal-title>
         </mdb-modal-header>
@@ -387,7 +366,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal25" @close="modal25 = false">
+      <mdb-modal size="lg" :show="modal25" @close="modal25 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 25</mdb-modal-title>
         </mdb-modal-header>
@@ -411,7 +390,7 @@
      </mdb-modal>
     </mdb-col>
        <mdb-col md="4">
-        <mdb-card  @click.native="modal26 = true" class="card-image" style="background-image: url('https://images.pexels.com/photos/2076622/pexels-photo-2076622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+        <mdb-card  @click.native="modal26 = true" class="card-image" style="background-image: url('https://cdn.pixabay.com/photo/2015/04/23/21/59/hot-air-balloon-736879_960_720.jpg')">
           <div class="d-flex align-items-center py-5 px-4">
             <div>
               <h5 class="white-text">
@@ -420,7 +399,7 @@
             </div>
           </div>
         </mdb-card>
-      <mdb-modal size="fluid" :show="modal26" @close="modal26 = false">
+      <mdb-modal size="lg" :show="modal26" @close="modal26 = false">
         <mdb-modal-header>
             <mdb-modal-title>Modal title 26</mdb-modal-title>
         </mdb-modal-header>
@@ -443,7 +422,7 @@
         </mdb-modal-footer>
      </mdb-modal>
     </mdb-col>
-    </mdb-row> -->
+    </mdb-row>
   </mdb-container> 
   <br><br>
   </div>
@@ -483,7 +462,7 @@ export default {
   name: 'Films',
   data () {
     return {
-      msg: 'WEDDINGS',
+      msg: 'MUSIC VIDEOS',
       modal: false,
       nmvid1: "../static/filler.mp4",
       modal2: false,
@@ -496,8 +475,7 @@ export default {
       nmvid5: "",
       modal6: false,
       nmvid6: "",
-      msg2: 'ELOPEMENTS',
-      msg3: 'ENGAGEMENTS',
+      msg3: 'DOCUMENTARIES',
       nmvid21: "../static/filler.mp4",
       modal21: false,
       nmvid22: "",
@@ -508,7 +486,7 @@ export default {
       modal24: false,
       nmvid25: "",
       modal25: false,
-      nmvid26: "../static/website.mov",
+      nmvid26: "../static/filler.mp4",
       modal26: false,
       msg4: 'MUSIC VIDEOS',    
     };
@@ -518,8 +496,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .media {
-  width:1000px;
-  height:575px;
+  width:95%;
+  /*height:575px;*/
   margin: auto;
 }
 video {

@@ -28,9 +28,9 @@
       <mdb-row>
       <mdb-col>
         <h4>
-         "Your Companies Name Here". 
+         "Your Companies Name Here" 
         <br><br>
-        NOTE: This web theme is for sale! Created by Craig @ <span style="color:black"><a href="http://ilovecode.tech/" target="_blank">iLoveCode.tech</a></span>. Thank you for viewing! <br>
+        This theme is for sale! Created by Craig @ <span><a style="color:black" href="http://ilovecode.tech/" target="_blank">iLoveCode.tech</a></span>. Thank you for viewing! <br>
         </h4>
       </mdb-col>
       </mdb-row>
@@ -43,20 +43,22 @@
   <mdb-container>
     <mdb-row>
       <mdb-card-group deck>
+
+
         <mdb-card> 
           <mdb-view class="cursorOnHover" hover>
-              <mdb-card-image src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap"></mdb-card-image>
+              <mdb-card-image src="https://cdn.pixabay.com/photo/2016/11/19/13/57/drum-set-1839383_960_720.jpg" alt="Card image cap"></mdb-card-image>
               <mdb-mask @click.native="modal = true" flex-center waves overlay="white-slight"></mdb-mask>
           </mdb-view>
           <mdb-card-body>
             <mdb-card-title>Featured Vid 1</mdb-card-title>
-            <mdb-card-text>Our Basic Video Package</mdb-card-text>
+            <mdb-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</mdb-card-text>
             <mdb-btn @click.native="modal = true" color="black">View Video</mdb-btn>
           </mdb-card-body>
-       <!-- featured Modal -->
-       <mdb-modal size="fluid" :show="modal" @close="modal = false">
+       <!-- featured Modal 1 -->
+       <mdb-modal size="lg" :show="modal" @close="modal = false">
          <mdb-modal-header>
-            <mdb-modal-title>Featured Video</mdb-modal-title>
+            <mdb-modal-title>Featured Video 1</mdb-modal-title>
          </mdb-modal-header>
         <mdb-modal-body>
           <Media 
@@ -69,43 +71,96 @@
               :loop="true"
               > 
           </Media> 
-          <h3 class="card-title h3 my-4"><strong>Package 1</strong></h3>
-          <p class="card-text py-2">"Quote from the Couple"</p>
+          <h3 class="card-title h3 my-4"><strong>Video 1</strong></h3>
+          <p class="card-text py-2">"Customer Review"</p>
         </mdb-modal-body>
         <mdb-modal-footer>
             <mdb-btn color="black" size="lg" @click.native="modal = false">Close</mdb-btn>      
         </mdb-modal-footer>
       </mdb-modal>
     </mdb-card>
-        <!-- uncomment when the more featured video are added -->
-       <!--  <mdb-card>
+        
+
+
+
+        <mdb-card>
           <mdb-view hover>
             <a href="#!">
-              <mdb-card-image src="https://images.pexels.com/photos/368893/pexels-photo-368893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap"></mdb-card-image>
-              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
+              <mdb-card-image src="https://cdn.pixabay.com/photo/2016/02/19/10/53/skateboarding-1209472_960_720.jpg" alt="Card image cap"></mdb-card-image>
+              <mdb-mask @click.native="modal2 = true" flex-center waves overlay="white-slight"></mdb-mask>
             </a>
           </mdb-view>
           <mdb-card-body>
-            <mdb-card-title>Featured Vid 2</mdb-card-title>
+            <mdb-card-title>Featured Video 2</mdb-card-title>
             <mdb-card-text>Some quick example text to build on the card title and make up the bulk of the
               card's content.</mdb-card-text>
-            <mdb-btn color="black">View Video</mdb-btn>
+            <mdb-btn color="black" @click.native="modal2 = true">View Video</mdb-btn>
           </mdb-card-body>
-        </mdb-card> -->
-       <!--  <mdb-card>
+          <!-- featured Modal 2 -->
+       <mdb-modal size="lg" :show="modal2" @close="modal2 = false">
+         <mdb-modal-header>
+            <mdb-modal-title>Featured Video 2</mdb-modal-title>
+         </mdb-modal-header>
+        <mdb-modal-body>
+          <Media 
+              class ="mediaModal"
+              :kind="'video'"
+              :isMuted="(true)"
+              :controls="true"
+              :src="featured2"
+              :autoplay="false"
+              :loop="true"
+              > 
+          </Media> 
+          <h3 class="card-title h3 my-4"><strong>Video 2</strong></h3>
+          <p class="card-text py-2">"Customer Review"</p>
+        </mdb-modal-body>
+        <mdb-modal-footer>
+            <mdb-btn color="black" size="lg" @click.native="modal2 = false">Close</mdb-btn>      
+        </mdb-modal-footer>
+      </mdb-modal>
+      <!-- featured Modal 3 -->
+       <mdb-modal size="lg" :show="modal3" @close="modal3 = false">
+         <mdb-modal-header>
+            <mdb-modal-title>Featured Video 3</mdb-modal-title>
+         </mdb-modal-header>
+        <mdb-modal-body>
+          <Media 
+              class ="mediaModal"
+              :kind="'video'"
+              :isMuted="(true)"
+              :controls="true"
+              :src="featured3"
+              :autoplay="false"
+              :loop="true"
+              > 
+          </Media> 
+          <h3 class="card-title h3 my-4"><strong>Video 3</strong></h3>
+          <p class="card-text py-2">"Customer Review"</p>
+        </mdb-modal-body>
+        <mdb-modal-footer>
+            <mdb-btn color="black" size="lg" @click.native="modal3 = false">Close</mdb-btn>      
+        </mdb-modal-footer>
+      </mdb-modal>
+     </mdb-card>
+
+
+
+
+        <mdb-card>
           <mdb-view hover>
             <a href="#!">
-              <mdb-card-image src="https://images.pexels.com/photos/827209/pexels-photo-827209.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap"></mdb-card-image>
-              <mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
+              <mdb-card-image src="https://cdn.pixabay.com/photo/2018/06/17/10/38/artist-3480274_960_720.jpg" alt="Card image cap"></mdb-card-image>
+              <mdb-mask @click.native="modal3 = true" flex-center waves overlay="white-slight"></mdb-mask>
             </a>
           </mdb-view>
           <mdb-card-body>
             <mdb-card-title>Featured Vid 3</mdb-card-title>
             <mdb-card-text>Some quick example text to build on the card title and make up the bulk of the
               card's content.</mdb-card-text>
-            <mdb-btn color="black">View Video</mdb-btn>
+            <mdb-btn color="black" @click.native="modal3 = true">View Video</mdb-btn>
           </mdb-card-body>
-        </mdb-card> -->
+        </mdb-card>
       </mdb-card-group>
     </mdb-row>
    </mdb-container>
@@ -161,11 +216,6 @@
        </mdb-col>
       </mdb-row>
     </mdb-container>
-
-
-
-
-
      <br>
      <br>
      <hr>
@@ -228,12 +278,15 @@ export default {
   name: 'Home', 
   data () {
     return {
-      msg: 'Videographer Portfolio Theme',    
-      desktopVideo: "../static/website.mov",
-      mobileVideo: "../static/website.mov",
+      msg: 'Videographer Theme',    
+      desktopVideo: "../static/filler.mp4",
+      mobileVideo: "../static/filler.mp4",
       modal: false,
+      modal2: false,
+      modal3: false,
       featured1: "../static/filler.mp4",
-
+      featured2: "../static/filler.mp4",
+      featured3: "../static/filler.mp4"
     };
   }
 }
@@ -320,9 +373,10 @@ above few classes seperate the two but use this as a reference point*/
   display: none!important;
   -webkit-appearance: none;
 }*/
+
 /*once more featured videos are added you can delete these 'div.card' edits*/
 div.card {
-  height: 700px !important;
+  /*height: 700px !important;*/
   cursor: pointer;
 }
 .cursorOnHover{
@@ -345,13 +399,13 @@ width: 1250px;
 }
 /*modal festured vid / same css as 'media' class on films page */
 .mediaModal {
-  width:1000px;
-  height:575px;
+  width:95%;
+  /*height:575px;*/
   margin: auto;
 }
 @media (max-width: 1400px) {
 div.card {
-  height: 550px !important;
+  /*height: 550px !important;*/
  }
 }
 @media (max-width: 560px) {

@@ -23,8 +23,8 @@
     <mdb-footer color="black">
       <mdb-container>
        <mdb-row>
-        <mdb-col class ="icons-centered" md="12">
-          <div class="mb-2 flex-center">
+        <mdb-col class ="icons-centered mt-2 mb-5" md="12">
+          <div class=" flex-center">
             <a class="fb-ic" href="">
               <i class="fab fa-facebook fa-lg white-text mr-md-5 mr-3 fa-3x"> 
               </i>
@@ -41,17 +41,9 @@
          </mdb-col>
        </mdb-row>
      </mdb-container>
-      <p class="footer-copyright mb-0 py-3 text-center">
-         Made with <i class="far fa-heart red-text"></i> by:
-       <span style ="color:white; border-right: 0px !important; ">
-         <a href="http://ilovecode.tech/" target="_blank"> Craig Burch 
-         </a>
-       </span> 
-       @
-        <a href="http://ilovecode.tech/" target="_blank"> iLoveCode.Tech </a>
-      <br>
-      &copy; {{new Date().getFullYear()}} Copyright: <a href=""> Your Companies Name </a>
-      </p>
+     <!--  <p class="footer-copyright py-3 text-center">
+      &copy; {{new Date().getFullYear()}} Copyright: <a href=""> Your Company Name Here</a>
+      </p> -->
     </mdb-footer>
   </div>
 </template>
@@ -150,11 +142,11 @@ li {
 }
 /*footer text in relation to icons*/
 .py-3 {
-  margin-top: 0px !important;
+  margin-top: 10px !important;
   padding-top: 1rem!important;
 }
 .mb-0 {
-    margin-bottom: 10px!important;
+    margin-bottom: 15px!important;
 }
 /*mobile nav bar edit*/
 @media (max-width: 991px) {

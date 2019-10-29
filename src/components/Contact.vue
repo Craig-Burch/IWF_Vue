@@ -44,7 +44,7 @@ export default {
         this.isLoading = true;
         setTimeout(() => {
           this.isLoading = false
-        },1500)
+        },1000)
     },
   },
   beforeMount(){

@@ -39,11 +39,11 @@
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li>4 hrs (day of)</li>
-      <li>Ceremony + Toasts</li>
-      <li>3 - 5 minute highlight video</li>
-      <li>need more</li>
-      <li>need more</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
     </ul>
   </div>
   <div class="pricing-table featured-table">
@@ -53,11 +53,11 @@
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li> 6 hrs </li>
-      <li>Prep + Ceremony + Toasts</li>
-      <li>5 - 7 minute cinematic highlight video</li>
-      <li>1 minute instagram highlight</li>
-      <li>need more</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
     </ul>
   </div>
   <div class="pricing-table">
@@ -67,11 +67,11 @@
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li> 8 hrs day of + Voiceover interviews</li>
-      <li>Prep + Ceremony + Reception </li>
-      <li>10 - 15 minute cinematic short film</li>
-      <li>3 - 5 Minute Highlight Video</li>
-      <li>1 minute instagram highlight</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
     </ul>
   </div>
 </div>
@@ -83,11 +83,11 @@
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li>Up to 3 consultations </li>
-      <li>4 hrs </li>
-      <li>25 of the best photos</li>
-      <li>All Raw files (if desired)</li>
-      <li>need more</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
     </ul>
   </div>
   <div class="pricing-table featured-table">
@@ -97,11 +97,11 @@
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li>Up to 3 consultations </li>
-      <li>6 hrs </li>
-      <li>35 - 50 of the best photos</li>
-      <li>All Raw files (if desired)</li>
-      <li>need more</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
     </ul>
   </div>
   <div class="pricing-table">
@@ -111,11 +111,11 @@
       Let's Talk!
     </a>
     <ul class="pricing-table__list">
-      <li>Up to 3 consultations </li>
-      <li>8 hrs </li>
-      <li>A personalized physical album to have</li>
-      <li>All Raw files (if desired)</li>
-      <li>need more</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
+      <li>Text</li>
     </ul>
   </div>
 </div>
