@@ -28,7 +28,7 @@
       <mdb-row>
       <mdb-col>
         <h4>
-         "Your Companies Name Here" 
+         "Your Company's Name Here" 
         <br><br>
         This theme is for sale! Created by Craig @ <span><a style="color:black" href="http://ilovecode.tech/" target="_blank">iLoveCode.tech</a></span>. Thank you for viewing! <br>
         </h4>
@@ -225,7 +225,7 @@
       <mdb-row>
         <mdb-col md="6" class ="forMobile moblile-image-width">
          <mdb-view>
-           <img src="https://images.pexels.com/photos/949223/pexels-photo-949223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
+           <img src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid " alt="placeholder" overlay="white-slight">
          </mdb-view>
        </mdb-col>
         <mdb-col md="6" class ="left-floating-text"> 
@@ -549,9 +549,9 @@ div.card {
   }
 }
 @media (max-width: 480px) {
-.mediaMobile {
+video.mediaMobile {
   height: 190px !important;
-  margin-top: 17% !important;
+  margin-top: 7% !important;
   }
 }
 @media (max-width: 425px) {
@@ -561,13 +561,13 @@ div.card {
 }
 @media (max-width: 375px) {
 video.mediaMobile {
-  margin-top: 23% !important;
+  margin-top: 8% !important;
   }
 }
 @media (max-width: 350px) {
 video.mediaMobile {
   height: 145px !important;
-  margin-top: 28% !important;
+  margin-top: 10% !important;
   }
 }
 @media (max-width: 325px) {
